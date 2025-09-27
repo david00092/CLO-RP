@@ -33,17 +33,17 @@ const client = new Client({
 
 const prefix = process.env.PREFIX || "!";
 const authorizedBotIDs = ["411916947773587456", "987654321098765432"]; // IDs bots autorizados
-const allowedRoles = ["1406868774434504731", "1406868774434504730"]; // IDs dos cargos autorizados a usar comandos
-const logChannelId = "1398886461025030235"; // ID do canal de logs
-const autoRoleId = "1406868774417858632"; // ID do cargo automático ao entrar
-const ticketSupportRoleId = "1406868774417858637"; // cargo que pode fechar ticket
+const allowedRoles = ["1414285601083097126", "1414285601083097125"]; // IDs dos cargos autorizados a usar comandos
+const logChannelId = "1414285602102444065"; // ID do canal de logs
+const autoRoleId = "1414285601074712719"; // ID do cargo automático ao entrar
+const ticketSupportRoleId = "1414285601083097120"; // cargo que pode fechar ticket
 
 // Tickets
-const ticketOpenChannelId = "1406868775869087760"; // canal do menu para abrir tickets
+const ticketOpenChannelId = "1414285601875820722"; // canal do menu para abrir tickets
 const ticketCategoryIds = {
-  vendas: "1406868776452096057",
-  suporte: "1406868776452096056",
-  denuncia: "1406868776452096058",
+  vendas: "1414285601875820721",
+  suporte: "1414285601875820721",
+  denuncia: "1414285601875820721",
 };
 
 // Servidor HTTP para uptime (ex: UptimeRobot)
