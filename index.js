@@ -39,7 +39,7 @@ const autoRoleId = "1398885680771497984"; // ID do cargo automático ao entrar
 const ticketSupportRoleId = "1398885572738682900"; // cargo que pode fechar ticket
 
 // Tickets
-const ticketOpenChannelId = "1398886141783965737"; // canal do menu para abrir tickets
+const ticketOpenChannelId = "1406868775869087760"; // canal do menu para abrir tickets
 const ticketCategoryIds = {
   vendas: "1398885695296110692",
   suporte: "1398885876666466387",
