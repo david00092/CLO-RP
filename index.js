@@ -23,7 +23,7 @@ process.on("unhandledRejection", (reason, promise) => {
 
 // Configurações principais
 const client = new Client({
-  intents: [
+  intents: 
     GatewayIntentBits.Guilds,
     GatewayIntentBits.GuildMembers,
     GatewayIntentBits.GuildMessages,
@@ -33,17 +33,17 @@ const client = new Client({
 
 const prefix = process.env.PREFIX || "!";
 const authorizedBotIDs = ["411916947773587456", "987654321098765432"]; // IDs bots autorizados
-const allowedRoles = ["1398885528358748250", "1398885530388795575"]; // IDs dos cargos autorizados a usar comandos
-const logChannelId = "1398886461025030235"; // ID do canal de logs
-const autoRoleId = "1398885680771497984"; // ID do cargo automático ao entrar
-const ticketSupportRoleId = "1398885572738682900"; // cargo que pode fechar ticket
+const allowedRoles = ["1406868774434504731", "1406868774434504730"]; // IDs dos cargos autorizados a usar comandos
+const logChannelId = "1406868774807928969"; // ID do canal de logs
+const autoRoleId = "1406868774417858632"; // ID do cargo automático ao entrar
+const ticketSupportRoleId = "1406868774417858637"; // cargo que pode fechar ticket
 
 // Tickets
 const ticketOpenChannelId = "1406868775869087760"; // canal do menu para abrir tickets
 const ticketCategoryIds = {
-  vendas: "1398885695296110692",
-  suporte: "1398885876666466387",
-  denuncia: "1398885880227299378",
+  vendas: "1406868776267284548",
+  suporte: "1406868776267284547",
+  denuncia: "1406868776267284546",
 };
 
 // Servidor HTTP para uptime (ex: UptimeRobot)
